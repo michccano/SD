@@ -1,0 +1,23 @@
+.navbar {
+    box-shadow: 0 15px 10px -15px #736c6ca1;
+}
+
+.nav-link {
+    &:hover {
+        color: darkred !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        flex-direction: row;
+        gap: 20px;
+
+        .nav-item {
+            .active {
+                color: darkred !important;
+                border-bottom: 1.5px solid darkred;
+            }
+        }
+    }
+}
