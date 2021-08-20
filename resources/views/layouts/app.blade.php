@@ -70,6 +70,7 @@
     <div id="vue-app">
         <sports-list></sports-list>
     </div>
+
     @yield('content')
 </main>
 </body>
