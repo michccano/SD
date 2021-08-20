@@ -6,41 +6,41 @@ class SportsListController extends Controller
 {
     public function index()
     {
-        dd("All Sports");
+        return view('sports.all-sports');
     }
 
     public function showLeagues()
     {
-        dd("Leagues");
+        return view('sports.single-sport', ['sport' => "Leagues"]);
     }
 
     public function showNfl()
     {
-        dd("NFL");
+        return view('sports.single-sport', ['sport' => "NFL"]);
     }
 
     public function showBasketball()
     {
-        dd("Basketball");
+        return view('sports.single-sport', ['sport' => "Basketball"]);
     }
 
     public function showBaseball()
     {
-        dd("baseball");
+        return view('sports.single-sport', ['sport' => "Baseball"]);
     }
 
     public function showFighting()
     {
-        dd("Fighting");
+        return view('sports.single-sport', ['sport' => "Fighting"]);
     }
 
     public function showHockey()
     {
-        dd("hockey");
+        return view('sports.single-sport', ['sport' => "Hockey"]);
     }
 
     public function showSoccer()
     {
-        dd("Soccer");
+        return view('sports.single-sport', ['sport' => "Soccer"]);
     }
 }
