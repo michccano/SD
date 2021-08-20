@@ -31,7 +31,7 @@ class MyfinalController extends Controller
         return view('myfinal', array("datas" => $datas), array("leagues" => $leagues));
     }
 
-    public function test()
+    public function test_navbar()
     {
         return view('component_test');
     }

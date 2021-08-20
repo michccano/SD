@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row text-center p-3">
             <div class="col sports-list-menu">
-                <a href="sports/league">
+                <a href="sports/leagues">
                     <span><img src="/image/icons/league.svg" alt="F"></span>
                     <span class="d-none d-lg-inline">Leagues</span>
                 </a>
@@ -32,7 +32,7 @@
                 </a>
             </div>
             <div class="col sports-list-menu">
-                <a href="sports/fight">
+                <a href="sports/fighting">
                     <span><img src="/image/icons/fight.svg" alt="F"></span>
                     <span class="d-none d-lg-inline">Fighting</span>
                 </a>
