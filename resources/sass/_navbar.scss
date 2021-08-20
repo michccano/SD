@@ -8,6 +8,22 @@
     }
 }
 
+.sports-list-menu {
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex: auto;
+    padding: 0 !important;
+
+    a {
+        color: black;
+    }
+}
+
 @media (min-width: 992px) {
     .navbar-nav {
         flex-direction: row;

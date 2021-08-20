@@ -18,6 +18,21 @@
   color: darkred !important;
 }
 
+.sports-list-menu {
+  display: flex !important;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  flex: auto;
+  padding: 0 !important;
+}
+.sports-list-menu a {
+  color: black;
+}
+
 @media (min-width: 992px) {
   .navbar-nav {
     flex-direction: row;
